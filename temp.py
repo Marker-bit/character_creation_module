@@ -36,7 +36,7 @@ quest_description = '''
 Она нужна для приготовления целебных снадобий.
 Соберите 12 ягод пиксельники.'''
 
-new_quest = Quest(quest_name, quest_description, quest_goal) 
+new_quest = Quest(quest_name, quest_description, quest_goal)
 
 print(new_quest.pass_quest())
 print(new_quest.accept_quest())
